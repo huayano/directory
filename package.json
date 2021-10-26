@@ -7,11 +7,14 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
+    "deepmerge": "^4.2.2",
     "express": "~4.16.1",
     "form-data": "^3.0.0",
     "http-errors": "~1.6.3",
+    "is-plain-object": "^5.0.0",
     "pg": "^8.4.2",
     "pug": "^2.0.0-beta11"
   }

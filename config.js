@@ -2,12 +2,13 @@ const config = {
     db: {
         user: 'huayano',
         password: 'itsapassword',
-        host: '10.10.10.2',
+        host: '10.10.10.3',
         port: '5432',
         database: 'pg_base'
     },
     tables: {
-        people: 'people'
+        furniture: 'furniture',
+        furniture_type: 'furniture_type'
     }
 };
 

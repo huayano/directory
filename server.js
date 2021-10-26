@@ -1,9 +1,12 @@
 const express = require('express');
 const app = express();
-const { mainMethod } = require ("./server/yellowBook");
+const { findAll, insertOne} = require ("./helpers/furniture");
 
-app.route('/')
-    .get(mainMethod)
+app.route('/show')
+    .get(findAll)
+
+app.route('/create')
+    .get(insertOne)
 
 
 app.listen(4402, function(){
