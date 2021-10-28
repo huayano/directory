@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "axios": "^0.24.0",
+    "body-parser": "^1.19.0",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "deepmerge": "^4.2.2",
@@ -16,6 +17,7 @@
     "http-errors": "~1.6.3",
     "is-plain-object": "^5.0.0",
     "pg": "^8.4.2",
-    "pug": "^2.0.0-beta11"
+    "pug": "^2.0.0-beta11",
+    "random-js": "^2.1.0"
   }
 }

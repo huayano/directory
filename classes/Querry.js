@@ -7,7 +7,7 @@ class Query {
         return `Select * from ${this.table}`;
     }
     InsertIntoFurniture(data) {
-        return `Insert into ${this.table} values (${data})`
+        return `Insert into ${this.table} values ${data}`
     }
 
 }

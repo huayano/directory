@@ -32,7 +32,7 @@ class Db {
             try {
                 res = await client.query(query);
             } catch (e) {
-                console.log(e); // eslint-disable-line no-console
+                console.log(e);
                 return e;
             } finally {
                 client.release();
