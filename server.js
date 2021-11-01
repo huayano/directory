@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const { findAll, insertData} = require ("./helpers/furniture");
+const { findAll, insertData, updateData} = require ("./helpers/furniture");
 
 app.use(express.json())
 
@@ -9,6 +9,10 @@ app.route('/show')
 
 app.post('/create', function (req, res) {
     insertData(req.body, res);
+})
+
+app.post('/add-item', function (req, res) {
+    updateData(req.body, res)
 })
 
 

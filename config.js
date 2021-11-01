@@ -8,7 +8,8 @@ const config = {
     },
     tables: {
         furniture: 'furniture',
-        furniture_type: 'furniture_type'
+        furnitureType: 'furniture_type',
+        furnitureStorage: 'furniture_storage'
     }
 };
 
